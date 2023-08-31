@@ -61,7 +61,7 @@ article #conteudo{
     left: 100;
     top: 160%;
 
-    transform: translate(-20);
+    transform: translate(-500);
 }
 code{
     font-size: 13px;
@@ -85,7 +85,7 @@ main img{
     width: 100%;
 }
 div.bloco{
-    background-image:url("https://clistenescarlos.com.br/wp-content/uploads/2020/01/redes-sociais.jpg") ;
+
     width: 30px;
     height: 30px;
     border:1px solid green ;
