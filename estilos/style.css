@@ -51,14 +51,14 @@ section #conteiner{
 
 }
 article #conteudo{
-    position: absolute;
+    position: relative;
     height: 200px;
     background-color: var(--cor1);
     margin: 20,20px;
     width: 400px;
 
     left: 300;
-    top: 110%;
+    top: 90%;
 
     transform: translate(100px);
 }
