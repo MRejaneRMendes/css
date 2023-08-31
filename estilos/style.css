@@ -44,6 +44,7 @@ header p{
     font-family:var(--fonte-padrao);
 }
 section #conteiner{
+    background-image: url();
     position:relative;
     height: 500px;
     padding: 10px;
