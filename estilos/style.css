@@ -48,14 +48,14 @@ section #conteiner{
     height: 500px;
     padding: 10px;
     background-color: var(--cor1);
-    margin: 20px;;
+    margin: 5px;;
 
 }
 article #conteudo{
     position: absolute;
-    height: 25vh;
+    height: 20vh;
     background-color: var(--cor1);
-    margin: 20px;
+    margin: 5px;
     width: 400px;
 
     left: 100;
