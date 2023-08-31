@@ -44,19 +44,18 @@ header p{
     font-family:var(--fonte-padrao);
 }
 section #conteiner{
-    background-image: url();
     position:relative;
     height: 500px;
     padding: 10px;
     background-color: var(--cor1);
-    margin: 2px;;
+    margin: 20px;;
 
 }
 article #conteudo{
     position: absolute;
     height: 25vh;
     background-color: var(--cor1);
-    margin: 2px;
+    margin: 20px;
     width: 400px;
 
     left: 100;
