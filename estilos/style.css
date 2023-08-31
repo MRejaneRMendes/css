@@ -44,21 +44,21 @@ header p{
     font-family:var(--fonte-padrao);
 }
 section #conteiner{
-    position: relative;
+    position:relative;
     height: 500px;
     padding: 10px;
     background-color: var(--cor1);
 
 }
 article #conteudo{
-    position: relative;
+    position: absolute;
     height: 200px;
     background-color: var(--cor1);
-    margin: 20,20px;
+    margin: 2px;
     width: 400px;
 
-    left: 300;
-    top: 90%;
+    left: 100;
+    top: 158%;
 
     transform: translate(100px);
 }
@@ -89,7 +89,7 @@ div.bloco{
     height: 30px;
     border:1px solid green ;
     border-radius: 20px;
-    margin: 10px;
+    margin: 2px;
 }
 div#q1{
     color: black;
