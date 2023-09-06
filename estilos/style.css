@@ -178,8 +178,11 @@ article #conteudo{
         font-size: 13px;
         color: white;
 }
+nav{
+    color:black;
+    font-family:var(--fonte-destaque);
 
-
+}
 main h1{
     font-family:var(--fonte-destaque);
     color:black;
