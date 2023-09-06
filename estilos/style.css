@@ -1,128 +1,291 @@
-@charset "UTF-8";
+ @charset "UTF-8"
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 
 :root{
     --cor0: rgb(105, 221, 90);
-    --cor1:#008064;
-    --cor2: rgb(11, 224, 11);
+    --cor1:#e9d529;
+    --cor2: #f5da42;
     --cor3: rgb(132, 238, 167);
-
-    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue', cursive;
-
 }
+
+
+
 *{
-    margin: 2px,0px;
-    padding: 0px;
+    margin: 3px,0px;
+    padding: 1px;
 }
 
-body{
-    background-color:rgb(12, 202, 170);
-    font-family: Arial, Helvetica, sans-serif;
+
+
+body img{
+    width: 100%;
+    height: 300;
 }
+
+    body{
+        background-color: rgba(237, 224, 108, 0.74);
+        font-family: 'Poppins', sans-serif;
+}
+
+
+
+.mudei1{
+    font-family:'Poppins', sans-serif;
+    color: purple ;
+    }
+    .mudei2{
+        font-family: 'Poppins', sans-serif;
+        color: green;
+        font-style: italic;
+    }
+    .mudei3{
+        font-family: 'Poppins', sans-serif;
+        color: blue;
+    }
+    .mudei4{
+        font-family: 'Poppins', sans-serif;
+        color: coral;  
+}
+
+
+
+nav {
+	font-size: 20px;
+	margin-left: 0%;
+	max-block-size: 900px;
+	max-width: 100%;
+	background: #e9cf3b;
+	box-shadow:0 3px 15px rgba(0,0,0,.15);
+}
+
+    nav::after {
+	    display: block;
+	    content: '';
+	    clear: both;
+        }
+
+    nav ul {
+	    padding-top: 3px;
+	    padding-bottom: 3px;
+	    margin: 0;
+	    list-style: none;
+        }
+
+    nav ul li {
+	    float: left;
+	    position: relative;
+    }
+
+    nav ul li a {
+    	display: block;
+	    color: rgba(255, 255, 255, .9);
+	    text-decoration: none;
+	    padding: 1rem 2rem;
+	    border-top: 7px solid transparent;
+	    border-bottom: 7px solid transparent;
+	    transition: all .3s ease-in-out;
+        
+    }
+
+    nav ul li a:hover,
+    nav ul li a:focus {
+	background: rgba(0, 0, 0, .15);
+}
+
+
+
 header{
     color:white;
     background-color: var(--cor);
-    font-family:var(--fonte-destaque);
-    
-   
+    font-family:var(--fonte-destaque);   
 }
-header h1{
-    color:white;
-    background-color: var(--cor2);
-    font-family:var(--fonte-destaque);
-    text-align: center;
-}
-header h2{
-    color:white;
-    background-color: var(--cor2);
-    font-family:var(--fonte-destaque);
-  
 
-}
-header p{
-    color:black;
-    font-family:var(--fonte-padrao);
-}
+    header h1{
+        color:white;
+        background-color: var(--cor2);
+        font-family:var(--fonte-destaque);
+        text-align: center;
+    }   
+
+    header h2{
+        color:white;
+        background-color: var(--cor2);
+        font-family:var(--fonte-destaque);
+    }
+
+    header p{
+        color:blue;
+        font-family:var(--fonte-padrao);
+    }
+
+
+
 section #conteiner{
+    background-image: image("imagens/painel,jpg");
     position:relative;
-    height: 500px;
+    height: 400px;
     padding: 10px;
     background-color: var(--cor1);
     margin: 5px;;
-
 }
+
+
+
 article #conteudo{
-    position: absolute;
+    position: center;
     height: 20vh;
     background-color: var(--cor1);
-    margin: 5px;
-    width: 400px;
+    margin: 40px;
+    width: 200px;
 
     left: 100;
     top: 160%;
 
     transform: translate(-500);
 }
-code{
-    font-size: 13px;
-    color: white;
 
-}
-nav{
-    color:black;
-    font-family:var(--fonte-destaque);
 
+
+.fafa{
+    color: blue;
+    font-family: 'Poppins', sans-serif;
 }
+
+    .insins{
+        color: purple;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .whawha{
+        color: green;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .youyou{
+        color: red;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .linlin{
+        color: rgb(88, 88, 226);
+        font-family: 'Poppins', sans-serif;
+    }
+
+    code{
+        font-size: 13px;
+        color: white;
+}
+
+
 main h1{
     font-family:var(--fonte-destaque);
     color:black;
+}
 
-}
-main h2{
-     font-family: var(--fonte-destaque);
-}
-main img{
-    width: 100%;
-}
+    main h2{
+        font-family: var(--fonte-destaque);
+    }
+
+    main img{
+        width: 100%;
+    }
+
+
+
 div.bloco{
 
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     border:1px solid green ;
     border-radius: 20px;
     margin: 2px;
 }
-div#q1{
-    color: black;
 
-}
-div#q2{
-    color: black;
+    div#q1{
+        color: black;
+    }
 
-}
-div#q3{
-    color: black;
+    div#q2{
+        color: black;
+    }
 
-}
-div#q4{
-    color: black;
+    div#q3{
+        color: black;
+    }
 
-}
-div#q5{
-    
-}
+    div#q4{
+        color: black;
+    }
+
+    div#q5{ 
+        color: black;   
+    }
+
+
+
+
 ul{
-    background-image: url('https://cache.olhardigital.com.br/uploads/acervo_imagens/2016/06/r16x9/20160623151537_1200_675_-_redes_sociais.jpg') ;
     color: black;
     width: 1000px;
     height: 500p;
     font-weight: bold;
-
 }
+
+
+
 footer{
     color: white;
     background-color: var(--cor1);
 }
-.video{
-    width: 100%;
+
+
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ecda1b;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #e5c120;
+}
+ 
+  .button:hover {background-color: #c6b716}
+  
+  .button:active {
+    background-color: #a79a0b;
+    box-shadow: 0 5px #a79a0b;
+    transform: translateY(4px);
+}
+
+
+
+
+.floating-box{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 240, 188);
+    height: 600px;
+    width: 700px;
+    padding: 25px;
+    border: 25px solid rgb(233, 216, 24);
+    border-radius: 30px;
+    margin-left: 25%;
+}
+
+
+.fa-whatsapp{
+    color: green;
+}
+
+    .fa-envelope{
+        color: rgb(88, 88, 226);
 }

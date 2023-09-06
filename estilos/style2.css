@@ -1,0 +1,116 @@
+
+
+nav {
+	font-size: 20px;
+	margin-left: 0%;
+	max-block-size: 900px;
+	max-width: 100%;
+	background: #e9cf3b;
+	box-shadow:0 3px 15px rgba(0,0,0,.15);
+}
+
+
+nav::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+
+nav ul {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin: 0;
+	list-style: none;
+}
+
+
+nav ul li {
+	float: left;
+	position: relative;
+}
+
+
+nav ul li a {
+	display: block;
+	color: rgba(255, 255, 255, .9);
+	text-decoration: none;
+	padding: 1rem 2rem;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	transition: all .3s ease-in-out;
+}
+
+
+nav ul li a:hover,
+nav ul li a:focus {
+	background: rgba(0, 0, 0, .15);
+}
+
+
+nav ul li a:focus {
+	color: #140328;
+}
+
+
+nav ul li a:not(:only-child)::after {
+	padding-left: 4px;
+}
+
+
+nav ul li ul li {
+	min-width: 190px;
+}
+
+
+nav ul li ul li a {
+	background: transparent;
+	color: #555;
+	border-bottom: 1px solid #DDE0E7;
+}
+
+
+nav ul li ul li a:hover,
+nav ul li ul li a:focus {
+	background: #eee;
+	color: #111;
+}
+
+
+.dropdown {
+	display: block;
+	position: absolute;
+	background: #eee562;
+	box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
+}
+
+
+.fa-home{
+	color: black;
+	font-size: 25px;
+}
+
+.fa-instagram{
+	color: purple;
+	font-size: 25px;
+}
+
+.fa-facebook{
+	color: blue;
+	font-size: 25px;
+}
+
+.fa-whatsapp{
+	color: green;
+	font-size: 25px;
+}
+
+.fa-youtube{
+	color: red;
+	font-size: 25px;
+}
+
+.fa-linkedin{
+	color: rgb(84, 89, 163);
+	font-size: 25px;
+}
